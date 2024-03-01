@@ -19,3 +19,5 @@ function GetStatus(res) {
         }
     })
 }
+
+module.exports = {GetStatus};

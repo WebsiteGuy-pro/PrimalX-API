@@ -8,7 +8,7 @@ const app = express();
 
 
 app.get("/api/services/getStatus", (req,res) => {
-    ServiceHandler
+    ServiceHandler.GetStatus(res);
 })
 
 app.listen(3000, () => {
